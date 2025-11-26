@@ -76,19 +76,10 @@ pip install -r requirements.txt
 Create a `.env` file in root:
 ```env
 # LLM Keys
-OPENAI_API_KEY=your_openai_key
 GROQ_API_KEY=your_groq_key
 
 # Vector DB
 PINECONE_API_KEY=your_pinecone_key
-PINECONE_ENV=your_pinecone_env
-PINECONE_INDEX=finance-agent-index
-
-# MySQL (optional – currently not working)
-MYSQL_HOST=localhost
-MYSQL_USER=root
-MYSQL_PASSWORD=your_password
-MYSQL_DB=finance_agent
 
 # PostgreSQL (WORKING)
 PG_HOST=localhost
