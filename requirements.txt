@@ -1,0 +1,42 @@
+# Web Framework
+fastapi==0.115.0
+
+# ASGI Server
+uvicorn==0.30.6
+
+# Data Processing
+pandas
+numpy
+
+# AI/ML Libraries
+langchain==0.3.27
+langchain-openai==0.3.6
+langchain-groq==0.2.4
+langchain-community==0.3.27
+langchain-core==0.3.79
+langchain-text-splitters==0.3.9
+langchain-experimental
+
+# Vector Database
+pinecone
+
+# Document Processing
+pymupdf4llm==0.0.17
+python-docx
+tiktoken==0.8.0
+
+# Database
+psycopg2-binary
+
+# Environment and Utilities
+python-dotenv==1.0.1
+pydantic==2.9.2
+
+# Text Processing
+openpyxl
+
+# Additional essential packages
+requests==2.32.3
+urllib3==2.2.3
+certifi==2024.8.30
+groq==0.30.0
